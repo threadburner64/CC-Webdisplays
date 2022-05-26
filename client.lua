@@ -20,7 +20,7 @@ local function setup_monitors()
     -- Set the textscale to 1, set to white and clear
     for i=1,#monitor do monitor[i].setTextScale(1); monitor[i].setBackgroundColor(colors.white); monitor[i].clear(); end
     print("Monitor Setup")
-    print("Click the monitors from left to right for each row")
+    print("Click the monitors from left to right for each row, starting from the top left")
     while true do
         -- wait to touch event..
         event,side,x,y = os.pullEvent("monitor_touch")
@@ -42,9 +42,9 @@ local function setup_monitors()
             print("Finish!")
             -- set all monitors to black and prepare the monitors table
             for i=1,#monitors do monitors[i] = {monitors[i],peripheral.wrap(monitors[i]) }; peripheral.wrap(monitors[i][1]).setBackgroundColor(colors.black); peripheral.wrap(monitors[i][1]).clear() end
-            print("Please speicfy the amount of veritcal monitors")
+            print("Please specify the amount of vertical monitors")
             virt = tonumber(io.read())
-            print("Please speicfy the amount of horizontal monitors")
+            print("Please specify the amount of horizontal monitors")
             horiz = tonumber(io.read())
             local check = fs.exists("cc_wd") or fs.makeDir("cc_wd")
             print("Enter your configuration name:")
