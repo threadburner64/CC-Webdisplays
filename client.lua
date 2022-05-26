@@ -42,9 +42,9 @@ local function setup_monitors()
             print("Finish!")
             -- set all monitors to black and prepare the monitors table
             for i=1,#monitors do monitors[i] = {monitors[i],peripheral.wrap(monitors[i]) }; peripheral.wrap(monitors[i][1]).setBackgroundColor(colors.black); peripheral.wrap(monitors[i][1]).clear() end
-            print("Please specify the amount of vertical monitors")
+            print("Please specify the colloum of monitors")
             virt = tonumber(io.read())
-            print("Please specify the amount of horizontal monitors")
+            print("Please specify the row monitors")
             horiz = tonumber(io.read())
             local check = fs.exists("cc_wd") or fs.makeDir("cc_wd")
             print("Enter your configuration name:")
