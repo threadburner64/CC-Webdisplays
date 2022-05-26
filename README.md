@@ -17,6 +17,10 @@ To get better profromance on PILLOW, install with pip3 or pip install pillow-sim
 
 Have fun
 
+Install on client run:
+
+wget https://raw.githubusercontent.com/threadburner64/CC-Webdisplays/main/client.lua
+
 Download the server here, includes chrome binary
 https://mega.nz/file/tkBkEJzC#xNlbfV07kqlsVCcy2pgvGsN8whKZM6mBVWc1WogZ6QA
 
