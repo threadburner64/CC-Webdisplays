@@ -1,6 +1,6 @@
 # CC-Webdisplays
 
-Made this because Webdisplays was not ready for 1.16.5
+Made this because Webdisplays is not ready for 1.16.5
 
 A library, xvfbwrapper is only made for linux which allows fast-screenshotting
 Therefore this will only work on linux systems
