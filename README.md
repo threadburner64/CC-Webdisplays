@@ -6,15 +6,15 @@ Made this because Webdisplays is not ready for 1.16.5
 A library, xvfbwrapper is only made for linux which allows fast-screenshotting
 Therefore this will only work on linux systems , try with windows wsl if on windows
 
-Please instaall python3 and the libraries,
+Please install python3 and the libraries with pip or pip3
 
-fastapi
-xvfbwrapper
-selenium
-pillow-simd
-uvicorn
+pip install fastapi xvfbwrapper selenium pillow-simd uvicorn
 
-To get better profromance on PILLOW, install with pip3 or pip install pillow-simd
+pip3 install fastapi xvfbwrapper selenium pillow-simd uvicorn
+
+If you have pillow, not simd version then it remove with pip
+
+SIMD version is more faster 
 
 Download the server here, includes chrome binary
 https://mega.nz/file/tkBkEJzC#xNlbfV07kqlsVCcy2pgvGsN8whKZM6mBVWc1WogZ6QA
