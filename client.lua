@@ -141,7 +141,7 @@ local function main()
             --
             for i=1,height do
                 --
-                row =  sub(f, single_frame_bytes*m+ (1 + (width * (i-1) ) ) , (width*i) + single_frame_bytes*m  )
+                local row =  sub(f, single_frame_bytes*m+ (1 + (width * (i-1) ) ) , (width*i) + single_frame_bytes*m  )
                 monitors[m+1][2].setCursorPos(1,i)
                 monitors[m+1][2].blit(row,row,row)           
                 row = nil
