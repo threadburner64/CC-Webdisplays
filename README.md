@@ -3,7 +3,7 @@
 Made this because Webdisplays is not ready for 1.16.5
 
 A library, xvfbwrapper is only made for linux which allows fast-screenshotting
-Therefore this will only work on linux systems
+Therefore this will only work on linux systems -- for server 
 
 Please instaall python3 and the libraries,
 
