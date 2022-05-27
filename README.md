@@ -3,8 +3,10 @@
 Made this because Webdisplays is not ready for 1.16.5
 # Server Setup
 
-A library, xvfbwrapper is only made for linux which allows fast-screenshotting
+A library, xvfbwrapper is only made for linux. xvfbwrapper is a virtual X server which allows fast-screenshotting
 Therefore the server will only work on linux systems , try with windows wsl if on windows
+
+Will find another way to make it work on windows systems..
 
 Please install python3 and the libraries with pip or pip3
 
