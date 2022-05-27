@@ -25,7 +25,7 @@ https://mega.nz/file/tkBkEJzC#xNlbfV07kqlsVCcy2pgvGsN8whKZM6mBVWc1WogZ6QA
 
 unzip, cd into the server folder, launch with
 
-python3 server.py
+python3 CC_Webdisplay.py
 
 press q to quit gracefully
 
