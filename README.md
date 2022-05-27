@@ -23,7 +23,7 @@ SIMD version is more faster
 Download the server here, includes chrome binary all in zip file
 https://mega.nz/file/tkBkEJzC#xNlbfV07kqlsVCcy2pgvGsN8whKZM6mBVWc1WogZ6QA
 
-cd into the server folder, launch with
+unzip, cd into the server folder, launch with
 
 python3 server.py
 
