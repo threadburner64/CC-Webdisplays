@@ -37,7 +37,7 @@ Install on client run:
 
 wget https://raw.githubusercontent.com/threadburner64/CC-Webdisplays/main/client.lua
 
-Want higher resolution?
+Want higher resolution? (removes setTextScale limit)
 Download my CC tweaked mod
 
 https://github.com/threadburner64/CC-Webdisplays/raw/main/cc-tweaked-1.16.5-1.100.5.jar
